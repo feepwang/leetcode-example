@@ -17,7 +17,7 @@
 class Solution {
    public:
     // overloading operator()
-    // int operator()(int i,int j);
+    int operator()(std::vector<int>& height) { return trap(height); }
 
     // function()
     int trap(std::vector<int>& height) {
